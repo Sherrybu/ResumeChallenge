@@ -1,0 +1,7 @@
+go 1.20
+
+use (
+	C:\Users\digit\cloud-resume-challenge
+	C:\Users\digit\cloud-resume-challenge\get-function
+	C:\Users\digit\cloud-resume-challenge\put-function
+)
