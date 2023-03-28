@@ -35,7 +35,7 @@ Resources:
   MyRoute53Record:
     Type: "AWS::Route53::RecordSetGroup"
     Properties:
-      HostedZoneId: Z0698559113WPA44BA1UQ # TODO: Don't hardcode me
+      HostedZoneId: Z0698559113WPA44BA1UQ 
       RecordSets:
         - Name: sheriar.net # TODO: Don't hardcode me
           Type: A
