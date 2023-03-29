@@ -15,4 +15,4 @@ jobs:
       - name: test get-function
         run: cd get-function && go test -v ./ && cd ../
       - name: test put-function
-        run: put-function && go test -v ./ && cd ../../
+        run: put-function && go test -v ./ && cd ../
