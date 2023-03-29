@@ -1,10 +1,9 @@
 require (
-	github.com/aws/aws-lambda-go v1.38.0
-	github.com/aws/aws-sdk-go v1.44.220
+	github.com/aws/aws-lambda-go v1.39.1
+	github.com/aws/aws-sdk-go v1.44.232
+	github.com/urfave/cli v1.22.1 // indirect
 )
-
-replace gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.8
 
 module put-function
 
-go 1.16
+go 1.15
