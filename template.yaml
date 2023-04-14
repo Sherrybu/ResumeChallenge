@@ -37,7 +37,7 @@ Resources:
     Properties:
       HostedZoneId: Z0698559113WPA44BA1UQ 
       RecordSets:
-        - Name: sheriar.net # TODO: Don't hardcode me
+        - Name: sheriar.net # TODO:
           Type: A
           AliasTarget:
             HostedZoneId: Z2FDTNDATAQYW2
@@ -46,7 +46,7 @@ Resources:
   MyCertificate:
     Type: AWS::CertificateManager::Certificate
     Properties:
-      DomainName: sheriar.net # TODO: Don't hardcode me
+      DomainName: sheriar.net # TODO:
       ValidationMethod: DNS
 
   MyDistribution:
@@ -57,7 +57,7 @@ Resources:
           AcmCertificateArn: !Ref MyCertificate
           SslSupportMethod: sni-only
         Aliases:
-          - sheriar.net # TODO: Don't hardcode me
+          - sheriar.net # TODO:
         DefaultCacheBehavior:
           ViewerProtocolPolicy: redirect-to-https
           TargetOriginId: sheriar.net.s3-website-us-east-1.amazonaws.com
